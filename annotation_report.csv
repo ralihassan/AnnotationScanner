@@ -1,0 +1,97 @@
+Class Name,Annotation(s)
+org.apache.commons.lang3.CharEncoding,java.lang.Deprecated 
+org.apache.commons.lang3.Functions$FailableBiConsumer,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.Functions$FailableBiFunction,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.Functions$FailableBiPredicate,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.Functions$FailableCallable,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.Functions$FailableConsumer,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.Functions$FailableFunction,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.Functions$FailablePredicate,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.Functions$FailableRunnable,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.Functions$FailableSupplier,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.Functions,java.lang.Deprecated 
+org.apache.commons.lang3.Streams$ArrayCollector,java.lang.Deprecated 
+org.apache.commons.lang3.Streams$FailableStream,java.lang.Deprecated 
+org.apache.commons.lang3.Streams,java.lang.Deprecated 
+org.apache.commons.lang3.StringEscapeUtils,java.lang.Deprecated 
+org.apache.commons.lang3.ThreadUtils$AlwaysTruePredicate,java.lang.Deprecated 
+org.apache.commons.lang3.ThreadUtils$NamePredicate,java.lang.Deprecated 
+org.apache.commons.lang3.ThreadUtils$ThreadGroupPredicate,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate,java.lang.Deprecated 
+org.apache.commons.lang3.ThreadUtils$ThreadPredicate,java.lang.Deprecated java.lang.FunctionalInterface 
+org.apache.commons.lang3.builder.Builder,java.lang.FunctionalInterface 
+org.apache.commons.lang3.builder.DiffExclude,java.lang.annotation.Retention java.lang.annotation.Target 
+org.apache.commons.lang3.builder.Diffable,java.lang.FunctionalInterface 
+org.apache.commons.lang3.builder.EqualsExclude,java.lang.annotation.Retention java.lang.annotation.Target 
+org.apache.commons.lang3.builder.HashCodeExclude,java.lang.annotation.Retention java.lang.annotation.Target 
+org.apache.commons.lang3.builder.ToStringExclude,java.lang.annotation.Retention java.lang.annotation.Target 
+org.apache.commons.lang3.builder.ToStringSummary,java.lang.annotation.Retention java.lang.annotation.Target 
+org.apache.commons.lang3.function.BooleanConsumer,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableBiConsumer,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableBiFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableBiPredicate,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableBooleanSupplier,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableCallable,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableConsumer,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableDoubleBinaryOperator,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableDoubleConsumer,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableDoubleFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableDoublePredicate,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableDoubleSupplier,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableDoubleToIntFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableDoubleToLongFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableIntBinaryOperator,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableIntConsumer,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableIntFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableIntPredicate,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableIntSupplier,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableIntToDoubleFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableIntToLongFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableLongBinaryOperator,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableLongConsumer,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableLongFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableLongPredicate,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableLongSupplier,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableLongToDoubleFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableLongToIntFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableObjDoubleConsumer,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableObjIntConsumer,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableObjLongConsumer,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailablePredicate,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableRunnable,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableShortSupplier,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableSupplier,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableToDoubleBiFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableToDoubleFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableToIntBiFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableToIntFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableToLongBiFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.FailableToLongFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.IntToCharFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.ToBooleanBiFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.TriConsumer,java.lang.FunctionalInterface 
+org.apache.commons.lang3.function.TriFunction,java.lang.FunctionalInterface 
+org.apache.commons.lang3.reflect.Typed,java.lang.FunctionalInterface 
+org.apache.commons.lang3.text.CompositeFormat,java.lang.Deprecated 
+org.apache.commons.lang3.text.ExtendedMessageFormat,java.lang.Deprecated 
+org.apache.commons.lang3.text.FormatFactory,java.lang.Deprecated 
+org.apache.commons.lang3.text.FormattableUtils,java.lang.Deprecated 
+org.apache.commons.lang3.text.StrBuilder,java.lang.Deprecated 
+org.apache.commons.lang3.text.StrLookup,java.lang.Deprecated 
+org.apache.commons.lang3.text.StrMatcher,java.lang.Deprecated 
+org.apache.commons.lang3.text.StrSubstitutor,java.lang.Deprecated 
+org.apache.commons.lang3.text.StrTokenizer,java.lang.Deprecated 
+org.apache.commons.lang3.text.WordUtils,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.AggregateTranslator,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.CharSequenceTranslator,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.CodePointTranslator,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.EntityArrays,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.JavaUnicodeEscaper,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.LookupTranslator,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.NumericEntityEscaper,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.OctalUnescaper,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.UnicodeEscaper,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.UnicodeUnescaper,java.lang.Deprecated 
+org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemover,java.lang.Deprecated 
