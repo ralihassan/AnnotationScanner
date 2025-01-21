@@ -18,7 +18,7 @@ public class AnnotationScannerTest {
 
     @Test
     public void testOpenJarFile() throws IOException {
-        // Assuming a valid JAR file path is provided
+        // Test to ensure that a valid JAR file can be opened successfully
         AnnotationScanner scanner = new AnnotationScanner();
         String jarPath = "commons-lang3-3.17.0.jar";
         JarFile jarFile = scanner.openJarFile(jarPath);
@@ -28,6 +28,7 @@ public class AnnotationScannerTest {
 
     @Test
     public void testOpenJarFileWithInvalidPath() {
+        // Test to verify that an IOException is thrown when an invalid JAR path is provided
         AnnotationScanner scanner = new AnnotationScanner();
         String invalidJarPath = "invalid.jar";
         assertThrows(IOException.class, () -> scanner.openJarFile(invalidJarPath));
@@ -35,6 +36,7 @@ public class AnnotationScannerTest {
 
     @Test
     public void testCreateClassLoader() throws IOException {
+        // Test to ensure that a class loader is created successfully for a valid JAR file
         AnnotationScanner scanner = new AnnotationScanner();
         String jarPath = "commons-lang3-3.17.0.jar";
         assertNotNull(scanner.createClassLoader(jarPath));
@@ -42,6 +44,7 @@ public class AnnotationScannerTest {
 
     @Test
     public void testScanJarForAnnotations() throws IOException {
+        // Test to verify that the scanner can find annotations in a JAR file
         // Mock or use a real JAR file with known annotations
         AnnotationScanner scanner = new AnnotationScanner();
         String jarPath = "commons-lang3-3.17.0.jar";
@@ -55,9 +58,10 @@ public class AnnotationScannerTest {
 
     @Test
     public void testWriteReportToFile(@TempDir Path tempDir) throws IOException {
+        // Test to ensure that the report is written to a file correctly
         AnnotationScanner scanner = new AnnotationScanner();
         StringBuilder report = new StringBuilder("Class Name,Annotation(s)\n");
-        String reportFilePath = tempDir.resolve("annotation_report.csv").toString();
+        String reportFilePath = tempDir.resolve("annotation_report_test.csv").toString();
 
         scanner.writeReportToFile(report, reportFilePath);
 
