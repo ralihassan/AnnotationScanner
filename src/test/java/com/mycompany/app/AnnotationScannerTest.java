@@ -45,7 +45,6 @@ public class AnnotationScannerTest {
     @Test
     public void testScanJarForAnnotations() throws IOException {
         // Test to verify that the scanner can find annotations in a JAR file
-        // Mock or use a real JAR file with known annotations
         AnnotationScanner scanner = new AnnotationScanner();
         String jarPath = "commons-lang3-3.17.0.jar";
         JarFile jarFile = scanner.openJarFile(jarPath);
@@ -54,6 +53,7 @@ public class AnnotationScannerTest {
         StringBuilder report = scanner.scanJarForAnnotations(jarFile, classLoader);
         assertNotNull(report);
         assertTrue(report.toString().contains("Class Name,Annotation(s)"));
+        assertTrue(report.toString().contains("org.apache.commons.lang3.CharEncoding,java.lang.Deprecated")); 
     }
 
     @Test
